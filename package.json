@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-sl-theme",
+  "version": "1.0.0",
+  "description": "Tailwind CSS theme extensions for the Shelterluv design system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shelterluv/tailwind-sl-theme.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/shelterluv/tailwind-sl-theme/issues"
+  },
+  "homepage": "https://github.com/shelterluv/tailwind-sl-theme#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
