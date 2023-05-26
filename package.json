@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "description": "Tailwind CSS theme extensions for the Shelterluv design system",
   "main": "index.js",
+  "publishConfig": {
+    "@shelterluv:registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "test": "echo \"No tests specified\" && exit 0"
   },
