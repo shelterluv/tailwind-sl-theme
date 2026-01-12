@@ -39,3 +39,14 @@ require('tailwind-sl-theme')({ prefix: 'shelterluv' })
 ```
 
 This will result in the colors being prefixed with `shelterluv` (so you'd use them with e.g., `bg-shelterluv-green-600` or `text-shelterluv-blue-400`).
+
+## Tailwind CSS v4 Support
+
+Tailwind CSS v4 uses a CSS-first approach. To use this theme in a v4 project, import the `theme.css` file into your main CSS entry point:
+
+```css
+@import "tailwindcss";
+@import "@shelterluv/tailwind-sl-theme/v4";
+```
+
+This will automatically add the SL design system colors to your `@theme` block.
