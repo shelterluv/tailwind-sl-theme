@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "Tailwind CSS theme extensions for the Shelterluv design system",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./v4": "./theme.css"
+  },
+  "files": [
+    "index.js",
+    "theme.css"
+  ],
   "publishConfig": {
     "@shelterluv:registry": "https://npm.pkg.github.com"
   },
