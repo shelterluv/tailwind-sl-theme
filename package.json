@@ -1,6 +1,6 @@
 {
   "name": "@shelterluv/tailwind-sl-theme",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Tailwind CSS theme extensions for the Shelterluv design system",
   "main": "index.js",
   "exports": {
