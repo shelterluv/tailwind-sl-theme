@@ -11,6 +11,9 @@ module.exports = plugin.withOptions(
     return {
       theme: {
         extend: {
+          fontFamily: {
+            [`${prefix}-dm-sans`]: ['"DM Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+          },
           colors: {
             [prefix]: {
               yellow: {

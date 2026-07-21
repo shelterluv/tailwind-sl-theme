@@ -1,4 +1,8 @@
+@import "./font.css";
+
 @theme {
+  --font-sl-dm-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+
   --color-sl-yellow-50: #FEF8E8;
   --color-sl-yellow-100: #FDF1D0;
   --color-sl-yellow-200: #FCE4A1;
