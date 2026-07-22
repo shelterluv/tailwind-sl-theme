@@ -2,6 +2,9 @@
 
 @theme {
   --font-sl-dm-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-sl-inter: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-sl-figtree: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-sl-roboto: "Roboto", ui-sans-serif, system-ui, sans-serif;
 
   --color-sl-yellow-50: #FEF8E8;
   --color-sl-yellow-100: #FDF1D0;
