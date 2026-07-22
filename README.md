@@ -53,7 +53,7 @@ This will automatically add the SL design system colors to your `@theme` block, 
 
 ## Typography
 
-The theme includes the [DM Sans](https://fonts.google.com/specimen/DM+Sans) font family, exposed as a `font-sl-dm-sans` utility (the prefix follows your `prefix` option in v3). The font files ship with this package via [`@fontsource/dm-sans`](https://fontsource.org/fonts/dm-sans) (weights 400, 500, 600, 700) — no Google Fonts request, no separate install.
+The theme includes the [DM Sans](https://fonts.google.com/specimen/DM+Sans) font family, exposed as a `font-sl-dm-sans` utility (the prefix follows your `prefix` option in v3). The font files ship with this package via [`@fontsource/dm-sans`](https://fontsource.org/fonts/dm-sans) (all weights 100–900, upright and italic — @font-face declarations are lazy, so browsers only download the styles a page actually renders) — no Google Fonts request, no separate install.
 
 **Tailwind v4:** nothing to do — `@import "@shelterluv/tailwind-sl-theme/v4"` already loads the font faces.
 
