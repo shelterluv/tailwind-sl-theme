@@ -53,14 +53,30 @@ This will automatically add the SL design system colors to your `@theme` block, 
 
 ## Typography
 
-The theme includes the [DM Sans](https://fonts.google.com/specimen/DM+Sans) font family, exposed as a `font-sl-dm-sans` utility (the prefix follows your `prefix` option in v3). The font files ship with this package via [`@fontsource/dm-sans`](https://fontsource.org/fonts/dm-sans) (all weights 100–900, upright and italic — @font-face declarations are lazy, so browsers only download the styles a page actually renders) — no Google Fonts request, no separate install.
+The theme ships four font families, each exposed as a `font-sl-*` utility (the prefix follows your `prefix` option in v3):
 
-**Tailwind v4:** nothing to do — `@import "@shelterluv/tailwind-sl-theme/v4"` already loads the font faces.
+| Family | Utility | Weights | Source |
+|---|---|---|---|
+| [DM Sans](https://fontsource.org/fonts/dm-sans) | `font-sl-dm-sans` | 100–900 + italics | `@fontsource/dm-sans` |
+| [Inter](https://fontsource.org/fonts/inter) | `font-sl-inter` | 100–900 + italics | `@fontsource/inter` |
+| [Figtree](https://fontsource.org/fonts/figtree) | `font-sl-figtree` | 300–900 + italics | `@fontsource/figtree` |
+| [Roboto](https://fontsource.org/fonts/roboto) | `font-sl-roboto` | 100–900 + italics | `@fontsource/roboto` |
 
-**Tailwind v3:** the plugin registers the `font-sl-dm-sans` utility, but Tailwind plugins can't load font files, so add one import to your CSS entry point:
+The font files ship with this package — no Google Fonts or bunny.net requests, no separate install. Every weight and italic is declared; `@font-face` declarations are lazy, so browsers only download the styles a page actually renders.
+
+**Tailwind v4:** nothing to do — `@import "@shelterluv/tailwind-sl-theme/v4"` already loads all font faces.
+
+**Tailwind v3:** the plugin registers the `font-sl-*` utilities, but Tailwind plugins can't load font files, so add one import to your CSS entry point:
 
 ```css
 @import "@shelterluv/tailwind-sl-theme/font";
+```
+
+Or pick individual families if you don't want declarations for all four:
+
+```css
+@import "@shelterluv/tailwind-sl-theme/font/dm-sans";
+@import "@shelterluv/tailwind-sl-theme/font/inter";
 ```
 
 Example usage (the "Label/Medium" style from the design system):

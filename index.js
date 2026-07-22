@@ -13,6 +13,9 @@ module.exports = plugin.withOptions(
         extend: {
           fontFamily: {
             [`${prefix}-dm-sans`]: ['"DM Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            [`${prefix}-inter`]: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            [`${prefix}-figtree`]: ['Figtree', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            [`${prefix}-roboto`]: ['Roboto', 'ui-sans-serif', 'system-ui', 'sans-serif'],
           },
           colors: {
             [prefix]: {

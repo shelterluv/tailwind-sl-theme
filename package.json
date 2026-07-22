@@ -6,12 +6,17 @@
   "exports": {
     ".": "./index.js",
     "./v4": "./theme.css",
-    "./font": "./font.css"
+    "./font": "./font.css",
+    "./font/dm-sans": "./fonts/dm-sans.css",
+    "./font/inter": "./fonts/inter.css",
+    "./font/figtree": "./fonts/figtree.css",
+    "./font/roboto": "./fonts/roboto.css"
   },
   "files": [
     "index.js",
     "theme.css",
-    "font.css"
+    "font.css",
+    "fonts"
   ],
   "publishConfig": {
     "@shelterluv:registry": "https://npm.pkg.github.com"
@@ -33,6 +38,9 @@
     "tailwindcss": "^3.3.2"
   },
   "dependencies": {
-    "@fontsource/dm-sans": "^5.3.0"
+    "@fontsource/dm-sans": "^5.3.0",
+    "@fontsource/figtree": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@fontsource/roboto": "^5.3.0"
   }
 }
